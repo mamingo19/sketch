@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    margin: 100px auto;
+    margin: 25px auto;
     box-shadow: 10px 10px rgb(0, 170, 255, 0.03);
 }
 
@@ -61,5 +61,16 @@ body{
     height: 25px;
     background: #04aa6d;
     cursor: pointer;
+    border-radius: 25px;
+}
+#color-picker-container{
+    text-align: center;
+}
+#label{
+    font-size: 30px;
+    font-family: bold;
+}
+
+#color-picker{
     border-radius: 25px;
 }
